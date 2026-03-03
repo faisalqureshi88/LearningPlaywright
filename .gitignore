@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Test & coverage
+coverage/
+.nyc_output/
+test-results/
+
+# Playwright artifacts
+playwright-report/
+.playwright/
+playwright/.cache/
+
+# Editor directories and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
